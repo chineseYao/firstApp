@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+		<link href="css/common.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+<!--头部信息条--开始-->
+		<div id="com_top">
+			<div class="w">
+				<ul class="fl"><li>目前城市:</li><li class="color_r">北京站</li></ul>
+				<ul class="fr"><li><a href="#">你好，请登录</a>&nbsp;&nbsp;</li><li><a href="#">忘记密码?</a></li></ul>
+				<span class="clr"></span>
+			</div>
+		</div>
+<!--头部信息条--结束-->
+
+<!--logo/搜索/购物车--开始-->
+        <div class="w">
+			<div id="logo"><a href="#" class="logo">全时汇</a></div>
+			<div id="search">
+			    <ul><li class="act">商品</li><li>供应商</li></ul>
+				<div class="form">
+					<input type="text" class="text" style="color: rgb(153, 153, 153);">
+					<button class="button cw-icon"><i></i>搜索</button>
+				</div>
+             </div>
+			<div id="settleup">
+			    <div class="free_r">订单满<span class="color_r">300</span>元免运费</div>
+				<div class="car_r"><div class="text">查看我的采购单</div><div><span class="money">0.00</span><span class="yuan">元</span></div></div>
+			</div>
+			<div id="hotwords">
+				<a href="javascript:" target="_blank">红牛</a>
+				<a href="javascript:" target="_blank">可口可乐</a>
+				<a href="javascript:" target="_blank">冰露</a>
+				<a href="javascript:" target="_blank">开卫</a>
+				<a href="javascript:" target="_blank">泸州老窖</a>
+				<a href="javascript:" target="_blank">牛栏山二锅头</a>
+			</div>
+			<span class="clr"></span>
+		</div>
+<!--logo/搜索/购物车--结束-->
+
+        <div class="w">
+				<div id="categorys">
+					<div class="dt"><a target="_blank" href="#">全部商品分类</a></div>
+					<div id="dd_main" class="dd hide">
+						<!-- 一级分类 -->
+						<div class="dd_inner" id="dd_inner">
+							<div data-index="0"><span>饮料</span><i>></i></div>
+							<div data-index="1"><span>酒</span><i>></i></div>
+							<div data-index="2"><span>方便食品</span><i>></i></div>
+							<div data-index="3"><span>休闲食品</span><i>></i></div>
+							<div data-index="4"><span>厨房调味</span><i>></i></div>
+							<div data-index="5"><span>低温日配</span><i>></i></div>
+							<div data-index="6"><span>精美餐食</span><i>></i></div>
+							<div data-index="7"><span>奶及奶制品</span><i>></i></div>
+							<div data-index="8"><span>个人护理</span><i>></i></div>
+							<div data-index="9"><span>百货</span><i>></i></div>
+							<div data-index="10"><span>纸品妇女卫生</span><i>></i></div>
+							<div data-index="11"><span>医疗、计生</span><i>></i></div>
+						</div>
+						<!-- 二级分类 -->
+						<div class="dorpdown_layer hide" id="dorpdown_layer">
+							<ul>
+								<li><a href="javascript:">水</a></li>
+								<li><a href="javascript:">碳酸饮料</a></li>
+								<li><a href="javascript:">功能饮料</a></li>
+								<li><a href="javascript:">茶饮料</a></li>
+								<li><a href="javascript:">果汁</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:">果汁</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:">茶饮料</a></li>
+								<li><a href="javascript:">果汁</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:">水</a></li>
+								<li><a href="javascript:">碳酸饮料</a></li>
+								<li><a href="javascript:">功能饮料</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:">功能饮料</a></li>
+								<li><a href="javascript:">茶饮料</a></li>
+								<li><a href="javascript:">果汁</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:">水</a></li>
+								<li><a href="javascript:">碳酸饮料</a></li>
+								<li><a href="javascript:">果汁</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="navitems">
+					<ul>
+						<li><a target="_blank" href="javascript:">商城首页</a></li>
+						<li><a target="_blank" href="javascript:">鲜食大卖场</a></li>
+                        <li><a target="_blank" href="javascript:">818全时汇狂欢节</a></li>
+						<li><a target="_blank" href="javascript:">直供供应商</a></li>
+						<li><a target="_blank" href="javascript:">本周团购</a></li>
+                        <li><a target="_blank" href="javascript:">首单特惠</a></li>
+					</ul>
+				</div>
+				<div style="clear:both"></div>
+		</div>
+		<!--商品详情-->
+		<div class="itemDetails_main">
+			<div class="w">
+				<div class="itemDetails_title"><span>饮料</span> / <span>功能型饮料</span> / <span>脉动维生素饮料青柠味600ml</span></div>
+				
+				<div class="item_imgMian">
+					<div class="item_d">
+						<img src="img/item_d.png"/>
+					</div>
+					<div class="item_m_list">
+						<img class="act" src="img/item_m1.png" />
+						<img src="img/item_m2.png" />
+						<img src="img/item_m3.png" />
+					</div>
+				</div>
+				<div class="iteminfoMian font_20">
+					<span class="itemName colorH0">脉动维生素饮料青柠味600ml</span>
+					<span class="itemNo">9284587924951</span>
+					<div class="itemPriceInfo">
+						<span class="item_Pric0"><i>批发价</i>: <i class="colorRed">¥250.2</i></span>
+						<span class="item_Pric1"><i>零售指导价</i>: <i>¥250.2</i></span>
+						<div class="item_grossProfit">
+							<span>进销毛利</span>
+							<span class="colorRed">34%</span>
+						</div>
+					</div>
+					<div class="itemRule">
+						<span>规格: <i>600ml</i></span>
+						<span>起订: <i>2</i></span>
+					</div>
+					<div class="itemRule">
+						<span>限购: <i>999</i></span>
+						<span>订货规格: <i>200</i></span>
+					</div>
+					<div class="item_AddandMinus_Btn">
+						<div class="btn">
+							<input class="itemBtn_num" value="1" type="text" name="" />
+							<span class="itemBtn_add"></span>
+							<span class="itemBtn_minus"></span>
+						</div>
+						<div class="openCart">加入购物车</div>
+					</div>
+				</div>
+				<div class="itemShopInfo">
+					<div class="shopInfo_logo">
+						<img src="img/qsh_logo.png" />
+					</div>
+					<div class="shopTel">
+						<span>服务热线</span>
+						<span class="itemShopInfo_tel">400-080-6611</span>
+					</div>
+					<div class="shop_contactService">
+						<img src="img/client.png" />
+						<span>联系客服</span>
+					</div>
+					<div class="shop_name">
+						安迪佛白色的
+					</div>
+					<div class="goShopBtn">
+						<span class="goShopBtn_text">进入档口</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="com_bottom">
+			<p>全国统一客服电话：400-080-6611  电话：010-89042000  传真：010-89042222   商务合作：010-89042141</p>
+			<p>北京全时叁陆伍连锁便利店有限公司</p>
+			<p>地址：北京市朝阳区东三环中路富力双子座A座20层</p>
+			<p>备案号：京ICP备14000550号-1</p>
+			<p>Copyright2014-2015 www.ampm365.cn all tights reserved</p>
+		</div>
+	</body>
+</html>
